@@ -1,3 +1,28 @@
 ---
 title: "Scopes"
 ---
+
+Full list of scopes and their uses.
+
+<Tabs>
+  <Tab title="email">
+    Access user's email address
+  </Tab>
+  <Tab title="profile">
+    Access user's name and avatar
+  </Tab>
+  <Tab title="sync (deprecated)">
+    <Card title="Scope deprecated" type="warning">
+      This scope is deprecated. Consider upgrading to use the 'storedatacloud' scope
+    </Card>
+
+    Sync user preferences.
+  </Tab>
+  <Tab title="storedatacloud">
+    Store data in cloud (requires user consent and privacy\_url)
+
+    <Warning>
+      Note: privacy\_url is required in service configuration for this scop
+    </Warning>
+  </Tab>
+</Tabs>

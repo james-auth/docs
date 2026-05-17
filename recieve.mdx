@@ -11,3 +11,13 @@ If no redirect\_url is provided, the authentication window will close and send d
 ```javascript
 window.addEventListener('message', (event) => { if (event.data.type === 'JAMES_AUTH_SUCCESS') { console.log('User authenticated:', event.data.user); console.log('Service:', event.data.service); } });
 ```
+
+### Method 2: Redirect (beta)
+
+If you provide a redirect\_url in your service configuration, users will be redirected back to your application with authentication data as URL parameters.
+
+For example, you could redirect to `example.com/authsuccess.html?params` and receive the data like this:
+
+```text
+https://example.com/authsuccess.html?user_id=123&email=user@example.com&name=John Doe&avatar=https://example.com/photo.jpg&cloud_storage=true
+```
