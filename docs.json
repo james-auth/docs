@@ -44,6 +44,13 @@
                   "makingrequest",
                   "recieve"
                 ]
+              },
+              {
+                "group": "Security & Privacy",
+                "pages": [
+                  "security-considerations",
+                  "privacy-policy"
+                ]
               }
             ]
           },
