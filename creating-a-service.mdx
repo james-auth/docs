@@ -26,9 +26,9 @@ To create a service on James Auth, ensure you have access to the Supabase databa
 />
 
 5. On the modal that opens, leave id blank, and fill in your full app's name under 'name'
-6. Under short\_name, fill out your application's short name. More info can be found in [Requirements](/requirements). 
+6. Under short\_name, fill out your application's short name. More info can be found in [Requirements](/requirements).
 7. Next, add an app description (recommended). This should explain what your app does and how it uses with James Auth.
-8. Under icon\_class add an fa icon. All icons follow this format: 
+8. Under icon\_class add an fa icon. All icons follow this format:
    ```text
    fa-[icon name]
    ```
@@ -42,6 +42,6 @@ To create a service on James Auth, ensure you have access to the Supabase databa
     />
     11. If your service is in beta, under is\_beta, change this to TRUE. You can change this at any time.
     12. If you want to redirect users to a custom page after successful authentication, change this to your custom page e.g. after successful auth you could link to [https://yoursite.com/authsuccess.html](https://yoursite.com/authsuccess.html), and recieve the data there (beta). Or, if you want to recieve the data via PostMessage, so the window closes and you continue the auth process on the same page it started, leave it blank.
-    13. Under privacy\_url, if your site is using the storedatacloud scope (syncing user data other than user info to your database, you must include a privacy policy. For more info, see [scopes](/scopes). 
-    14. If you wish to show a custom note on the James Auth dashboard, full in the note\_from\_developer field.
+    13. Under privacy\_url, if your site is using the storedatacloud scope (syncing user data other than user info to your database), you must include a privacy policy. For more info, see [scopes](/scopes).
+    14. If you wish to show a custom note on the James Auth dashboard, fill in the note\_from\_developer field.
     15. Click Save changes, and now you're ready to make a request!
