@@ -12,29 +12,6 @@
     "dark": "/logo/light.svg"
   },
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "scopes",
-              "requirements",
-              "creating-a-service"
-            ]
-          },
-          {
-            "group": "Requests",
-            "pages": [
-              "makingrequest",
-              "recieve"
-            ]
-          }
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -43,7 +20,50 @@
           "icon": "book-open-cover"
         }
       ]
-    }
+    },
+    "dropdowns": [
+      {
+        "dropdown": "James Auth v2",
+        "icon": "2",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "index",
+                  "scopes",
+                  "requirements",
+                  "creating-a-service"
+                ]
+              },
+              {
+                "group": "Requests",
+                "pages": [
+                  "makingrequest",
+                  "recieve"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Contact",
+            "pages": [
+              "contact-james-auth"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "James Auth v1",
+        "icon": "1",
+        "description": "The v1 docs are outdated",
+        "pages": [
+          "v1intro"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
