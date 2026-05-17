@@ -1,0 +1,21 @@
+---
+title: "Making a request"
+sidebarTitle: "Making a request"
+---
+
+To make a request, your site must have a 'Authenticate with James Auth' button. An example button could be:
+
+```html
+<button onclick="window.location.href='https://jamesauth.pages.dev/auth?app=[app short name]&scopes=[your scopes]'" class="inline-flex items-center gap-3 px-6 py-3 text-base font-medium text-white bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all duration-200 ease-in-out transform hover:-translate-y-0.5 active:translate-y-0">
+    <i class="fas fa-shield-alt"></i>
+    <span>Authenticate with James Auth</span>
+</button>
+```
+
+Once they click the button, you must redirect to the official Authentication endpoint, which is:
+
+```text
+https://jamesauth.pages.dev/auth?app=[app short name]&scopes=[your scopes]
+```
+
+Replace '\[app short name\]' with your application's short name, and '\[your scopes\]' with the scopes you wish to request. You can learn more about scopes by checking out the [scopes documentation](/scopes).

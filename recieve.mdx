@@ -1,0 +1,13 @@
+---
+title: "Receiving a request"
+---
+
+Using your preferred method, once you have made a request, you need to receive the data back after successful auth.
+
+### Method 1: PostMessage (recommended)
+
+If no redirect\_url is provided, the authentication window will close and send data to your application via postMessage.
+
+```javascript
+window.addEventListener('message', (event) => { if (event.data.type === 'JAMES_AUTH_SUCCESS') { console.log('User authenticated:', event.data.user); console.log('Service:', event.data.service); } });
+```
