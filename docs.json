@@ -69,6 +69,14 @@
         "pages": [
           "v1intro"
         ]
+      },
+      {
+        "dropdown": "Users of James Auth",
+        "icon": "user",
+        "description": "User Documentation",
+        "pages": [
+          "what-is-a-third-party-app"
+        ]
       }
     ]
   },
