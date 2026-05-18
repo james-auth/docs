@@ -51,6 +51,13 @@
                   "security-considerations",
                   "privacy-policy"
                 ]
+              },
+              {
+                "group": "Rebrand",
+                "pages": [
+                  "information-about-rebrand",
+                  "new-buttons"
+                ]
               }
             ]
           },
@@ -75,7 +82,8 @@
         "icon": "user",
         "description": "User Documentation",
         "pages": [
-          "what-is-a-third-party-app"
+          "what-is-a-third-party-app",
+          "rebrand"
         ]
       }
     ]
