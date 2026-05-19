@@ -117,5 +117,8 @@
     "socials": {
       "github": "https://github.com/jamestheakston/jamesauth"
     }
+  },
+  "interaction": {
+    "drilldown": false
   }
 }
