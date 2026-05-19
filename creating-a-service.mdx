@@ -3,45 +3,47 @@ title: "Creating a service"
 ---
 
 <Warning>
-  Please ensure you have read and agree to the requirements and also our privacy policy.
+  Please ensure you have read and agree to the [requirements](/requirements) and also our [privacy policy](/privacy-policy).
 </Warning>
 
-To create a service on James Auth, ensure you have access to the Supabase database. You automatically gain access to this once you have gained consent for your app to be on James Auth.
+You can create a service by sending a request to create a James Auth developer account. You can create a developer account at [https://jamesauth.pages.dev/dev/dashboard](https://jamesauth.pages.dev/dev/dashboard). 
 
-<Card title="Database access" type="note" horizontal>
-  You may not be able to access the database. If that is the case, James will edit the data for you.
-</Card>
-
-1. Head over to the database on Supabase.
-2. Click on "Tables"
-3. Next to services, click the "View in Table editor" button.
-4. Under insert, select 'insert row'
+Once going to [https://jamesauth.pages.dev/dev/dashboard](https://jamesauth.pages.dev/dev/dashboard), you will see this screen.
 
 <img
-  src="/images/Screenshot-2026-05-17-at-11.19.44.png"
-  alt="Screenshot 2026 05 17 At 11 19 44"
-  title="Screenshot 2026 05 17 At 11 19 44"
-  className="mr-auto"
-  style={{ width:"38%" }}
+  src="/images/Screenshot-2026-05-19-at-18.28.34.png"
+  alt="Screenshot 2026 05 19 At 18 28 34"
+  title="Screenshot 2026 05 19 At 18 28 34"
+  className="mx-auto"
+  style={{ width:"71%" }}
 />
 
-5. On the modal that opens, leave id blank, and fill in your full app's name under 'name'
-6. Under short\_name, fill out your application's short name. More info can be found in [Requirements](/requirements).
-7. Next, add an app description (recommended). This should explain what your app does and how it uses with James Auth.
-8. Under icon\_class add an fa icon. All icons follow this format:
-   ```text
-   fa-[icon name]
-   ```
-9. Leave accent colour blank.
-10. Under launch\_url add your website. Although not required, it can help direct users to your site.
-    <img
-      src="/images/req2.png"
-      alt="Req2"
-      title="Req2"
-      style={{ width:"45%" }}
-    />
-    11. If your service is in beta, under is\_beta, change this to TRUE. You can change this at any time.
-    12. If you want to redirect users to a custom page after successful authentication, change this to your custom page e.g. after successful auth you could link to [https://yoursite.com/authsuccess.html](https://yoursite.com/authsuccess.html), and recieve the data there (beta). Or, if you want to recieve the data via PostMessage, so the window closes and you continue the auth process on the same page it started, leave it blank.
-    13. Under privacy\_url, if your site is using the storedatacloud scope (syncing user data other than user info to your database), you must include a privacy policy. For more info, see [scopes](/scopes).
-    14. If you wish to show a custom note on the James Auth dashboard, fill in the note\_from\_developer field.
-    15. Click Save changes, and now you're ready to make a request!
+Click Sign in with James Auth, and allow access to the James Auth Beta Experiments app. 
+
+<img
+  src="/images/Screenshot-2026-05-19-at-18.30.09.png"
+  alt="Screenshot 2026 05 19 At 18 30 09"
+  title="Screenshot 2026 05 19 At 18 30 09"
+  className="mx-auto"
+  style={{ width:"66%" }}
+/>
+
+Next, fill-out the form and wait for your request to be approved.
+
+<Frame>
+  ![Screenshot 2026 05 19 At 18 30 49](/images/Screenshot-2026-05-19-at-18.30.49.png)
+</Frame>
+
+Once you have submitted the request and it has been acknowledged, it will be put in "In review' mode.
+
+<Frame>
+  ![Screenshot 2026 05 19 At 18 33 40](/images/Screenshot-2026-05-19-at-18.33.40.png)
+</Frame>
+
+Once it has been approved, you will have access to the dashboard.
+
+<Frame>
+  ![Screenshot 2026 05 19 At 18 35 30](/images/Screenshot-2026-05-19-at-18.35.30.png)
+</Frame>
+
+Once you have access to the dashboard, please send us an email to create an application at [jamesttheakston2@gmail.com](mailto:jamesttheakston2@gmail.com) or by the form at my official website [https://jamestheakston.pages.dev](https://jamestheakston.pages.dev).
